@@ -137,7 +137,9 @@ tr, td {
 	display:block;
 	width:1024px;
 	vertical-align:middle;
-	}
+	position: relative;
+	padding-bottom: 60px;
+}
 	
 
 #header-logo{
@@ -186,8 +188,8 @@ ul#menu li a:hover{
 #flash{
 	margin-top:0;
 	padding-left:0;
-	
-	}
+	margin-bottom: 40px;
+}
 
 #content_bottom{
 	margin:auto;
@@ -298,27 +300,19 @@ ul#menu li a:hover{
 	line-height:1.5;
 }
 
-#footer{
-	background-image:url("images/footer.jpg");
-	background-repeat:repeat-x;
-	clear:both;
-	display:block;
-	width:1024px;
-	padding-bottom:6px;
-	padding-left:6px;
-	padding-top:6px;
-	
+#footer {
+	clear: both;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
+	position: relative;
 }
 
 #footer p {
-font-family:Helvetica,Arial,Verdana,sans-serif;
-display:block;
-font-size:11px;
-line-height:1.5em;
-margin:0;
-color:#ffffff;
-
-
+	color: #666666;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
 }
 .style1 {color: #263991}
 .style2 {font-size: 11px}
